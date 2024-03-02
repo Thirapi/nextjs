@@ -1,6 +1,6 @@
 "use client";
 
-const viewUserButton = () => {
+const ViewUserButton = () => {
     const handleClick = () => alert('Udah Di Klik')
     return (
     <>
@@ -9,4 +9,4 @@ const viewUserButton = () => {
     );
 };
 
-export default viewUserButton;
+export default ViewUserButton;
