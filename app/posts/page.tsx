@@ -1,4 +1,5 @@
 import styles from "./postPage.module.css"
+import viewUserButton from "../components/viewUserButton"
 
 const Posts = () => {
     return (
