@@ -1,4 +1,3 @@
-
 import viewUserButton from "../components/viewUserButton"
 
 const Posts = () => {
