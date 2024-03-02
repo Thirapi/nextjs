@@ -9,4 +9,4 @@ const viewUserButton = () => {
     );
 };
 
-export default viewUserButton
+export default viewUserButton;
