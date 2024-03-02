@@ -1,6 +1,10 @@
+import styles from "./postPage.module.css"
+
 const Posts = () => {
     return (
-        <div>Posting</div>
+        <>
+        <h1 className="{styles.text1}">posts</h1>
+        </>
     )
 }
 
