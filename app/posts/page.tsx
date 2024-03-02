@@ -1,4 +1,5 @@
 import styles from "./postPage.module.css"
+'use client'
 
 const Posts = () => {
     return (
