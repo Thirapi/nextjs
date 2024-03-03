@@ -10,7 +10,7 @@ interface Iposts {
     body: string
 }
 
-const Posting = async() => {
+const Posts = async() => {
     const response = await fetch(base_url)
     const posts: Iposts[] = await response.json()
 
@@ -33,4 +33,4 @@ const Posting = async() => {
     );
 };
 
-export default Posting;
+export default Posts;
