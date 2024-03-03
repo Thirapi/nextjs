@@ -1,8 +1,8 @@
-const CardList = ({Children} :any) => {
+const CardList = ({children} :any) => {
     return (
         <>
         <div className="bg-[tomato] p-4 w-full">
-            {Children}
+            {children}
         </div>          
         </>
     );
