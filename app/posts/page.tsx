@@ -17,11 +17,15 @@ const Posts = async() => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        <p>{posts[0].title}</p>
+        {posts.map((post) => {
+            return (
             <CardList>
                 <p>test</p>
                 <ViewUserButton />
             </CardList>
+            )
+        })}
+        <p>{posts[0].title}</p>
         </>
     );
 };
