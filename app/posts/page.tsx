@@ -7,7 +7,7 @@ const Posts = () => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        <p>{base_url</p>
+        <p>{base_url}</p>
         <CardList>
             <p className="text-4xl">halo</p>
             <i>hai</i>
