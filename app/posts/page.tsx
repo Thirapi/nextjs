@@ -10,6 +10,26 @@ const Posts = () => {
             <i>hai</i>
             <ViewUserButton />
         </CardList>
+        <CardList>
+            <p className="text-4xl">halo</p>
+            <i>hai</i>
+            <ViewUserButton />
+        </CardList>
+        <CardList>
+            <p className="text-4xl">halo</p>
+            <i>hai</i>
+            <ViewUserButton />
+        </CardList>
+        <CardList>
+            <p className="text-4xl">halo</p>
+            <i>hai</i>
+            <ViewUserButton />
+        </CardList>
+        <CardList>
+            <p className="text-4xl">halo</p>
+            <i>hai</i>
+            <ViewUserButton />
+        </CardList>
         </>
     );
 };
