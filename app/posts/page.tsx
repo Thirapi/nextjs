@@ -1,7 +1,7 @@
 import CardList from "../components/Posts/CardList";
 import ViewUserButton from "../components/Posts/ViewUserButton";
 
-const base_url = "https://jsonplaceholder.typicode.com/posts";
+const base_url = "https://jsonplaceholder.typicode.com/posts"
 
 const Posts = () => {
     return (
