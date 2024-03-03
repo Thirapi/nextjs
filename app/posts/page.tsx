@@ -12,20 +12,16 @@ const base_url = "https://jsonplaceholder.typicode.com/posts"
 
 const Posts = async() => {
     const response = await fetch(base_url)
-    const posts: Iposts[] = await response.json()
+    const posts: await response.json()
 
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        <p>{posts.id}</p>
-        {/* {posts.map((post) => {
-            return (
+        <p>{posts[0].id}</p>
             <CardList>
                 <p>test</p>
                 <ViewUserButton />
             </CardList>
-            )
-        })} */}
         </>
     );
 };
