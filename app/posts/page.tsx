@@ -20,9 +20,7 @@ const Posts = async() => {
         {posts.map((post) => {
             return (
             <CardList>
-                <p>{post.id}</p>
-                <p>{post.title}</p>
-                <p>{post.body}</p>
+                <p>test</p>
                 <ViewUserButton />
             </CardList>
             )
