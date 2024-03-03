@@ -17,14 +17,15 @@ const Posts = async() => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        {posts.map((post) => {
+        {posts.map((post ,index) => {
             return (
             <CardList>
-                <div key={post.id}>
+                <div key={index}>
+                <p className="text-base font-black text-center">{post.id}</p>
                 <p className="text-base font-black text-center">{post.title}</p>
                 <p className="text-base font-black text-center">{post.body}</p>
-                </div>
                 <ViewUserButton />
+                </div>
             </CardList>
             )
         })}
