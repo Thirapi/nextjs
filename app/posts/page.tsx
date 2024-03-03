@@ -17,12 +17,12 @@ const Posts = async() => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-            <CardList>
+            {/* <CardList>
                 <p className="text-8xl font-black text-center">{posts[0].id}</p>
                 <p className="text-8xl font-black text-center">{posts[0].title}</p>
                 <p className="text-8xl font-black text-center">{posts[0].body}</p>
                 <ViewUserButton />
-            </CardList>
+            </CardList> */}
             {/* stuck error di mapping dan children cardlist ya bang */}
         </>
     );
