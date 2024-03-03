@@ -16,12 +16,16 @@ const Posts = async() => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        <p>{posts[0].title}</p>
-        <CardList>
-            <p className="text-4xl">halo</p>
-            <i>hai</i>
-            <ViewUserButton />
-        </CardList>
+        {posts.map((post) => {
+            return (
+            <CardList>
+                <p>{post.id}</p>
+                <p>{post.title}</p>
+                <p>{post.body}</p>
+                <ViewUserButton />
+            </CardList>
+            )
+        })}
         </>
     );
 };
