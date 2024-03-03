@@ -4,7 +4,7 @@ import ViewUserButton from "../components/Posts/ViewUserButton";
 const base_url = "https://jsonplaceholder.typicode.com/posts"
 
 const Posts = async() => {
-    const respose = await fetch(base_url)
+    const response = await fetch(base_url)
     const posts = await response.json()
     return (
         <>
