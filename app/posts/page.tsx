@@ -10,7 +10,7 @@ interface Iposts {
     body: string
 }
 
-const Posts = async() => {
+const Posts = () => {
     const response = await fetch(base_url)
     const posts: Iposts[] = await response.json()
 
@@ -21,8 +21,8 @@ const Posts = async() => {
             return (
             <CardList>
                 <p className="text-base font-black text-center">key={post.id}</p>
-                {/* <p className="text-base font-black text-center">{post.title}</p>
-                <p className="text-base font-black text-center">{post.body}</p> */}
+                <p className="text-base font-black text-center">{post.title}</p>
+                <p className="text-base font-black text-center">{post.body}</p>
                 <ViewUserButton />
             </CardList>
             )
