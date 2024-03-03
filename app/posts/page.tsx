@@ -18,10 +18,12 @@ const Posts = async() => {
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
             <CardList>
-                <p>test</p>
+                <p>{posts[0].id}</p>
+                <p>{posts[0].title}</p>
+                <p>{posts[0].body}</p>
                 <ViewUserButton />
             </CardList>
-        <p>{posts[0].title}</p>
+        
         </>
     );
 };
