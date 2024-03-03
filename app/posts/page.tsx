@@ -12,7 +12,7 @@ const base_url = "https://jsonplaceholder.typicode.com/posts"
 
 const Posts = async() => {
     const response = await fetch(base_url)
-    const posts: await response.json()
+    const posts = await response.json()
 
     return (
         <>
