@@ -1,6 +1,6 @@
 const CardList = ({Children} :any) => {
     return (
-        <div className="p-4 w-full bg-[tomato]">
+        <div className="bg-[tomato] p-4 w-full">
             {Children}
         </div>
     );

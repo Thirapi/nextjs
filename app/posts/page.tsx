@@ -18,9 +18,9 @@ const Posts = async() => {
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
             <CardList>
-                <p>{posts[0].id}</p>
-                <p>{posts[0].title}</p>
-                <p>{posts[0].body}</p>
+                <p className="text-8xl font-black text-center">{posts[0].id}</p>
+                <p className="text-8xl font-black text-center">{posts[0].title}</p>
+                <p className="text-8xl font-black text-center">{posts[0].body}</p>
                 <ViewUserButton />
             </CardList>
             {/* stuck error di mapping dan children cardlist ya bang */}
