@@ -6,8 +6,8 @@ const Posts = () => {
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
         <CardList>
-            <p>halo</p>
-            <p>hai</p>
+            <p className="text-4xl">halo</p>
+            <i>hai</i>
             <ViewUserButton />
         </CardList>
         </>
