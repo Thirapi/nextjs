@@ -23,7 +23,7 @@ const Posts = async() => {
                 <p>{posts[0].body}</p>
                 <ViewUserButton />
             </CardList>
-        
+            {/* stuck error di mapping dan children cardlist ya bang */}
         </>
     );
 };
