@@ -20,15 +20,16 @@ const Posts = async() => {
         {posts.map((post) => {
             return (
             <CardList>
-                <p className="text-base font-black text-center">{post.id}</p>
+                <div key={post.id}>
                 <p className="text-base font-black text-center">{post.title}</p>
                 <p className="text-base font-black text-center">{post.body}</p>
+                </div>
                 <ViewUserButton />
             </CardList>
             )
         })}
 
-            {/* stuck error di mapping dan children cardlist ya bang */}
+            {/* stuck error di mapping */}
         </>
     );
 };
