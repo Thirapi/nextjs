@@ -12,7 +12,7 @@ interface Iposts {
 
 const Posts = async() => {
     const response = await fetch(base_url)
-    const posts: Iposts[].body = await response.json()
+    const posts: Iposts[] = await response.json()
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
