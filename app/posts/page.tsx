@@ -17,14 +17,16 @@ const Posts = async() => {
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        {posts.map(post => (
-                    <CardList>
-                        <p className="text-base font-black text-center">{post.id}</p>
-                        <p className="text-base font-black text-center">{post.title}</p>
-                        <p className="text-base font-black text-center">{post.body}</p>
-                        <ViewUserButton />
-                    </CardList>
-        ))}
+        {posts.map((post) => {
+            return (
+            <CardList>
+                <p className="text-base font-black text-center">{post.id}</p>
+                <p className="text-base font-black text-center">{post.title}</p>
+                <p className="text-base font-black text-center">{post.body}</p>
+                <ViewUserButton />
+            </CardList>
+            )
+        })}
             {/* stuck error di mapping */}
         </>
     );
