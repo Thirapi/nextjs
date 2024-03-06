@@ -12,12 +12,12 @@ interface Iposts {
 
 const Posts = async() => {
     const response = await fetch(base_url)
-    const posts: Iposts[] = await response.json()
+    const postss: Iposts[] = await response.json()
 
     return (
         <>
         <h1 className="text-8xl font-black text-center">posts</h1>
-        {posts.map((post) => {
+        {postss.map((post) => {
             return (
             <CardList>
                 <p className="text-base font-black text-center">{post.id}</p>
